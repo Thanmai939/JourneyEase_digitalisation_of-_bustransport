@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JourneyEase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Base application theme. -->
+        <item name="colorPrimary">@color/myprimary</item>
+        <item name="colorPrimaryVariant">@color/myprimary</item>
+        <item name="colorOnPrimary">@color/myprimary</item>
+        <item name="colorSecondary">@color/mysecondary</item>
+        <item name="colorSecondaryVariant">@color/mysecondary</item>
+        <item name="colorOnSecondary">@color/mysecondary</item>
+        <item name="android:statusBarColor">@color/myprimary</item>
+        </style>
+
+    <style name="Theme.JourneyEase" parent="Base.Theme.JourneyEase" />
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlNormal">#4D000000</item>
+        <item name="colorControlActivated">@color/dialog_color_1</item>
+    </style>
+</resources>

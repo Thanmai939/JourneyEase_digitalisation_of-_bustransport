@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="myprimary">#0B2FDF</color>
+    <color name="mysecondary">#4034EA</color>
+    <color name="my_primary">#2463CF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="colorPrimary">#5174F0</color>
+    <color name="colorPrimaryDark">#113CD8</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Yellow">#C58000</color>
+    <color name="colorPurple">#5D7CEA</color>
+    <!--On boarding colors-->
+    <color name="purple_light">#AE4361</color>
+
+    <color name="purple_dark">#6C0B2E</color>
+
+    <color name="green_light">#90C2F8</color>
+
+    <color name="green_dark">#5591EB</color>
+
+    <color name="pink_light">#F890BC</color>
+
+    <color name="pink_dark">#EB5595</color>
+
+    <color name="blue_light">#90C2F8</color>
+
+    <color name="blue_dark">#5591EB</color>
+    <color name="gray">#808080</color>
+    <color name="dialog_color_1">#FDD736</color>
+    <color name="dialog_color_2">#527DE0</color>
+    <color name="color_view">#A5A2A2</color>
+    <color name="colortextsecond">#5C5A5A</color>
+    <color name="colortextfirst">#000000</color>
+    <color name="colorAccent1">#FF5722</color>
+    <color name="colorPrimaryDark1">#DAAA1A</color>
+    <color name="colorPrimary1">#E3B429</color>
+
+
+    </resources>

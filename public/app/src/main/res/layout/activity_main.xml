@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myprimary"
+    tools:context=".MainActivity6">
+    <ImageView
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/busicon"
+    android:id="@+id/appsplash"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/appname"
+    android:text="JourneyEase"
+    android:textColor="@color/white"
+    android:layout_below="@+id/appsplash"
+    android:textSize="25dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"/>
+</RelativeLayout>

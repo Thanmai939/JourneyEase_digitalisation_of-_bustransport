@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <View
+        android:id="@+id/topview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_view" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/topview">
+        <!-- 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="149dp"
+            app:cardCornerRadius="15dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:cardElevation="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+    <ImageView
+        android:id="@+id/scan"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/scan"
+    android:layout_gravity="center_horizontal"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Scan Pass"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="18sp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <!-- 2-->
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="149dp"
+        app:cardCornerRadius="15dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="10dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        app:cardElevation="12dp">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ticket"
+            android:onClick="nticket"
+            android:contentDescription="Buy Ticket"
+        android:layout_gravity="center_horizontal"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fare Ticket"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:cardElevation="12dp">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/details"
+            android:onClick="details"
+            android:contentDescription="Details"
+        android:layout_gravity="center_horizontal"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Details"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    <!-- 4 -->
+    <androidx.cardview.widget.CardView
+    android:layout_width="150dp"
+    android:layout_height="149dp"
+    app:cardCornerRadius="15dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_row="1"
+    android:layout_margin="10dp"
+    android:layout_column="1"
+    app:cardElevation="12dp">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/logout"
+        android:onClick="logout"
+        android:contentDescription="Logout"
+    android:layout_gravity="center_horizontal"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Logout"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="18sp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:text="JourneyEase"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+</RelativeLayout>

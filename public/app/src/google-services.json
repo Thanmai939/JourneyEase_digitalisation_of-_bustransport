@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370489609592",
+    "project_id": "journeyease-91bf7",
+    "storage_bucket": "journeyease-91bf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370489609592:android:981de4a031978ac4a44c8d",
+        "android_client_info": {
+          "package_name": "com.example.journeyease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrOc2gu1jOzqXGgklVotmvqpnYUdqGWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

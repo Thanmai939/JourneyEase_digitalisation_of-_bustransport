@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JourneyEase</string>
+    <string name="email">Email-Id</string>
+    <string name="phone">Contact</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember Me</string>
+    <string name="already">Already have an Account,</string>
+    <string name="register">Register</string>
+    <string name="confirm">Confirm</string>
+    <string name="credentials">Please Login with your credentials</string>
+    <string name="enter">Enter your ID</string>
+    <string name="title1">Welcome to JourneyEase</string>
+    <string name="title2">QR Code</string>
+    <string name="title3">Notifications</string>
+    <string name="title4">Time saving and efficient</string>
+    <string name="subtitle1">This app will help you in making your travelling easier with cashless payments</string>
+    <string name="subtitle2">Enables QR code verification and validation</string>
+    <string name="subtitle3">Informing about your activities and updates through notifications</string>
+    <string name="subtitle4">All the features are at your finger tips so it is time efficient</string>
+    <string name="old_pass_renewal">old_pass_renewal</string>
+    <string name="we_will_send_you_an_one_time_otp_on_this_given_mobile_number">We will send you an one time otp on this given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="_91">+91</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="please_enter_the_otp_sent_to_you">Please enter the OTP sent to you</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="submit">SUBMIT</string>
+</resources>
