@@ -43,14 +43,14 @@ public class MainActivity2 extends AppCompatActivity {
         confirm=findViewById(R.id.password2);
         login=findViewById(R.id.signin);
         contact=findViewById(R.id.phone);
-        validate=findViewById(R.id.verify);
+     /*   validate=findViewById(R.id.verify);
         validate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent ve=new Intent(MainActivity2.this,MainActivity10.class);
                 startActivity(ve);
             }
-        });
+        });*/
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

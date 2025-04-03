@@ -108,14 +108,14 @@ android:ems="10"
                 android:inputType="number" />
 
 
-            <Button
+          <!--  <Button
                 android:id="@+id/verify"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:text="Verify"
                 android:textColor="@color/white"
 
-                android:textSize="18dp" />
+                android:textSize="18dp" /> */ -->
         </LinearLayout>
 
         <LinearLayout
